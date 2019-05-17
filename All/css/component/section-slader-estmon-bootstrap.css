@@ -1,0 +1,280 @@
+  
+ /*<!--============= start section teestmonls (910?)============ -->*/
+	.teestmonls{
+ 	width: 100%;
+		height: 800px;
+		background: #141414;
+	}
+.gred-4-inf{	
+	background: #141414;
+	padding: 200px 0;
+}
+.p-teme-inf{
+
+    color: #fff;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: bold;
+	border-left: 5px solid #ffcc00;
+	padding-left: 10px;
+}
+.our-tteam-inf{
+ background-color: #000;
+	overflow: hidden;
+	color:#fff;
+}
+
+.bak-g-c-inf
+{
+	width: 100%px;
+    width: 100%px;
+    height: 0px;
+    padding: 0;
+    margin: 0;
+    transition: all .5s ease;
+    background: none;
+	margin-bottom:  100px;
+ }
+.our-tteam-inf:hover .bak-g-c-inf
+{
+    background:#4f0b0b;
+    height: 100px;
+	margin-bottom:  10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.our-tteam-inf:hover .pic-inf img
+{
+     box-shadow: 0 0 0 8px #fff;
+     transform: scale(.7);
+ }
+.our-tteam-inf:hover .p-ul-inf span
+{
+    top: 0;
+ }
+.pic-inf img
+{   border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transition: all .5s ease;
+    transform: scale(1.1);
+
+}
+ .pic-inf 
+{
+    margin-top: -63px;
+	border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin-left: 26%;
+    background: #4f0b0b;
+	margin:0 auto;
+ }
+ .team-content-inf{  
+	padding-top: 20px;
+    text-align: center;
+	 margin: 0 auto;
+ }
+.p-ul-inf{   
+	margin: 0;
+    height: 50px;
+    padding: 11px 0;
+    transition: all 1s  ease;
+    top: 77%;
+	position: relative;
+}
+ .p-ul-inf span
+{
+	transition: 1s ease;
+    position: absolute;
+    background:#4f0b0b;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 100px;
+    transition: all .5s ease;
+}
+ .post-inf{
+   color: #999;
+   font-size: 16px;
+   margin: 0 auto;
+   width: 40%;
+}
+.p-ul-inf span
+{
+    font-size:20px; 
+ 	font-weight: bold;
+ 	padding-top:5px; 
+ }
+.fa-star
+{
+    color: #ffcc00;
+	padding: 5px 5px;
+}
+
+ 
+/*<!--============= End section teestmonls (9)============ -->*/
+
+
+ 
+
+
+ 
+
+ 				
+/*<!--=============start  section tteam (6)========================= -->*/
+.testimon-ials-slider{
+    background:#333;
+    width: 100%; 
+    max-width: 100%;
+	padding : 100px 0; 
+    color: red;	 
+
+}
+ .img-tes-mo{
+ width: 150px;
+height: 150px;
+border-radius: 50%;
+
+}
+ 
+.next-pre-ico {
+ padding: 4px;
+    background: #9f1616;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin: 0 5%;
+}
+
+
+
+  .ol-c-test-mon.owl-carousel { 
+       display: block;
+  }
+   .ol-c-test-mon.owl-carousel  .owl-dots{
+	text-align: center;
+    -webkit-tap-highlight-color: #000;
+    display: block;
+/*    background: #123eee;*/
+}
+ 
+/*<!--=============End  section tteam (6)========================= -->*/
+
+
+
+ 
+
+/*=====================start section contact us  
+/*  =======================End section team(8)======================*/
+.sect-my-teme {
+background: #f9f7f4;
+	margin: 0;
+	padding: 0;
+}
+ 
+ .ul-icon-det{
+     display: flex;
+    background: #000;
+    padding: 20px 0;
+    margin: 0;
+    justify-content: space-around;
+    position: fixed;
+	position: relative;
+    width: 100%; 
+	 list-style: none;
+}
+.ul-icon-det i{  
+	color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+	position: relative;
+z-index: 2;
+
+}
+.d-ul{
+	overflow: hidden;
+
+position: relative;
+}
+
+.d-hover:hover .sp-ovr-l{
+	top:63%;
+	-webkit-transition: .65s ease;
+	-moz-transition: .65s ease;
+	-ms-transition: .65s ease;
+	-o-transition: .65s ease;
+	    transition: .65s ease;
+
+
+}
+	.sp-ovr-l{
+     color: #f00;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10%;}
+.sp-ovr-l{
+ 	position: absolute;
+	top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    -webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+	-ms-transition: 1s ease;
+	-o-transition: 1s ease;
+	    transition: 1s ease;
+}
+.d-img-teme	img{
+    -webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+	-ms-transition: 1s ease;
+	-o-transition: 1s ease;
+	transition: 1s ease;position: relative;
+	height: 370px;
+	overflow: hidden;
+}
+.d-hover:hover .d-ul .d-img-teme>img{
+
+-webkit-transform: scale(1.7);
+-moz-transform: scale(1.7);
+-ms-transform: scale(1.7);
+-o-transform: scale(1.7);
+transform: scale(1.7);
+}
+
+.sp-ovr-l h4{
+     color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+ 
+}
+		
+.back-g{
+     position: absolute;
+    width: 0%;
+    top: 0;
+    bottom: 0;
+	left: 0;
+    z-index: 1;
+-webkit-transition: .65s ease;
+	-moz-transition: .65s ease;
+	-ms-transition: .65s ease;
+	-o-transition: .65s ease;
+	    transition: .65s ease;
+	background: green;
+	
+ }
+	.d-hover:hover .back-g{
+
+    width: 100%;
+		background: red;
+}
+ 
+/*  =======================End section team(8)======================*/*/
+
+ 
