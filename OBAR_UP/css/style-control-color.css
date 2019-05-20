@@ -1,0 +1,363 @@
+ body{
+	background: #fff;
+}
+.bac-1{
+	background: #fff;
+}
+.bac-2{
+	background: #f4f4f4;
+}
+.pic-inf 
+.sticky .navbar{ 
+    background: #f8b403;
+}
+.welcome {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/%D9%88%D8%B6%D8%AD%D9%87-%D8%B3%D9%84%D8%A7%D9%84%D9%84%D9%85.PNG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+ 
+.welcome .after-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/background/Pattern-1.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: 21;
+} 
+.welcome .after-img.border-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;		
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/wave.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: 21;
+}
+/*
+#one-sec{
+	background: #fff;
+}
+*/
+
+
+ 
+.div-text-clop{
+	line-height: 2;
+}
+
+.video-background{
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+/************************************************************************/
+ .pricing-table .section-desc{
+     color:#000; 
+}
+
+/************************* start price-table */
+.price-table{
+    color:red;
+ }
+.content-table{
+	border: 1px solid #eee;
+  }
+.price-table h1:hover {
+    -webkit-text-shadow: 10px 6px 10px #f00;
+    -o-text-shadow: 10px 6px 10px #f00;
+    -ms-text-shadow: 10px 6px 10px #f00;
+    -moz-text-shadow: 10px 6px 10px #f00;
+      text-shadow: 10px 6px 10px #f00;
+}
+ .price-box{
+     color:#7cb62f;
+/*      box-shadow:  0 10px 37px -11px #888;
+*/}
+.price-table .price-box p {
+     color: red;
+    background-color:  #7cb62f ;
+    	color: #e3ce90;
+}
+.price-table .price-box:hover p {
+ -webkit-transform:scale(1.1,1.1) rotate(350deg);
+ -moz-transform:scale(1.1,1.1) rotate(360deg);
+ -o-transform:scale(1.1,1.1) rotate(360deg);
+ -ms-transform:scale(1.1,1.1) rotate(360deg);
+  transform:scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #555;
+}
+.price-table .price-box ul li:hover{
+        border-left: 15px solid #7cb62f;
+       border-right: 15px solid #7cb62f;
+}
+.pricing-table button{
+ color: #fff;
+ background-color: #7cb62f;
+}
+.pricing-table button:hover{
+    background-color:#121212 ;
+         color:#e3ce90;
+
+}
+.carousel-caption {
+ 
+    color: #fff;
+ }
+  btn-OVERVIEW.btn btn-danger.latest-posts{
+    background-color:#121212 ;
+
+}
+.app-review .owl-theme .owl-nav [class*=owl-] {
+    background: #7cb62f;
+    color: #fff;
+    border-color:#7cb62f;
+}
+.app-review .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #f8b403;
+    color: #fff;
+    border-color: #f8b403;
+}
+.ul-icon-det {
+	
+}
+
+
+/*<!--=============start  section tteam (6)========================= -->*/
+.testimon-ials-slider{
+    background:#333;
+    color: red;	 
+} 
+.next-pre-ico {
+     background: #9f1616;
+    color: #fff;
+}
+   .ol-c-test-mon.owl-carousel  .owl-dots{
+     -webkit-tap-highlight-color: #000;
+  }
+ 
+ 
+
+
+ 
+
+ /*  =======================start  section team(8)======================*/
+.sect-my-teme {
+background: #f9f7f4;
+}
+ 
+ .ul-icon-det{
+    background:  #7cb62f;
+}
+	.sp-ovr-l{
+     color: #f00;
+}
+.sp-ovr-l{
+ 	position: absolute;
+    background: rgba(0,0,0,0.7);
+}
+ 
+.sp-ovr-l h4{
+     color: #fff;
+}
+		
+.back-g{
+	background: green;
+ }
+	.d-hover:hover .back-g{
+ 		background: #f8b403;
+}
+ 
+/*  =======================End section team(8)======================*/*/
+ 
+ /*start componnt section  .portfoli shuflsccript*/
+
+.portfoli .images > div {
+
+margin-bottom: 20px;
+height: 248px;
+}
+
+
+.buttons button{
+	    width: 109px;
+    padding: 10px;
+    background: #f8b403;
+    color: #fff;
+   
+
+}
+.portfoli .more{
+
+	color:#fff;
+    background: #f8b403;
+  
+ 
+	}
+
+.active-btn{
+background: #7cb62f!important;
+
+}
+ /*-------overley-------*/
+
+.col-over{
+     background-color: transparent;
+ }
+ .col-over .overley i{
+ 
+    color: #eee;
+     
+}
+.buttons button {
+    color: #333;
+    background: #f8b403;
+    color: #fff;
+}
+/*-------End overley-------*/
+/*End section shufle script--------------------*/
+	
+	
+   
+
+/*---------butoon-------------------*/
+
+ .butoon-1-a{ 
+    background-color: #ff2462;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+/*    border: 1px solid #ff2462;*/
+    color: #fff;
+}
+.butoon-1-a:hover span:first-child {
+	background:#ff2462;
+
+ 
+}
+.from-left span:first-child{
+		 border-radius: 10px;
+		background: #e74c3c;
+}
+ 
+.butoon-1-a a{
+    color: #fff;
+    
+}
+ 
+/*===========End section footer===========================*/
+
+ .none-background.butoon-1-a{
+	background-color: transparent!important;
+}
+
+footer a>i{
+background: #7cb62f;
+border:1px solid #7cb62f;
+
+}
+footer a>i:hover{
+background: #f8b403;
+	border:1px dashed  #7cb62f;
+	
+}
+footer ,
+.sticky .navbar{
+	background: #f8b403;
+    height: 20px;
+}
+
+
+footer a>.fa-angle-double-up {
+    background: #7cb62f;
+	border: 1px solid #7cb62f;
+/*	z-index: 99999999*/
+}
+
+.app-screenshot .thm-container .owl-theme .owl-dots .owl-dot  span
+,.butoon-1-a{
+	background: #7cb62f;
+}
+	.butoon-1-a{
+	background: #7cb62f;
+    border-radius: 33px;
+ }
+.app-screenshot .thm-container .owl-theme .owl-dots .owl-dot.active span{
+	
+
+}
+.butoon-1-a:hover span:first-child {
+		background: #f8b403;
+   	border-radius: 15px;
+
+}
+.section-all-fotar .main-title-h1 h1{
+	border-bottom: 3px solid #7cb62f;
+}
+
+.portfolio.prti-mar{
+	
+ 	color: #fff;
+	background: #7cb62f;
+}
+
+
+
+/*start  .choose---------------*/
+.choose .c-panel ul {
+	background: #0c274c;
+	
+}
+.choose .c-panel ul {
+	background: #0c274c!important;
+}
+/*start statstk---------------*/
+.contant:hover.contant i{
+		background: #7cb62f;
+
+} 
+.stats:hover.stats .icon-sta, .c-col-services:hover.icon-tools .hov, .c-col-services:hover.c-col-services i, .statistics .stats:hover i {
+    color: #fff;
+		background: #7cb62f;
+}
+/*start  .choose---------------*/
+ .pic-inf 
+{ 
+    background:#f8b403;
+}
+.pic-inf 
+{
+     
+    background:#f8b403;
+}
+ .quick-help .owl-carousel .owl-item img{
+	height: 300px;
+}
+/*---------- start contact-us -----------------*/
+#sub-frame-error{
+	background-image:  url(../img/background/footr-blue.png)!important;
+}
+/*---------- start contact-us -----------------*/
+.text-muted{
+    font-weight: bold;
+    color: #f8b403!important;
+}

@@ -16,7 +16,7 @@ width: 100%;
  position: relative;
 /*	background: linear-gradient(90deg, #f0027f , #75489f);*/
   
-    background: url(https://www.bragma.com/wp-content/themes/new-theme/assets/images/slider-cover.png) no-repeat;
+    background: url(../../img/labtop.png) no-repeat;
     background-size: cover;
 }
 .bac-one:before{

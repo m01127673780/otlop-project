@@ -1,0 +1,22 @@
+ 
+	  body{
+		background-image: url(img/back-body/background-img.png)
+	  }
+	  .div-col{
+		padding: 70px 0;
+	  }
+.icon-6 {
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    width: 52px;
+    line-height: 50px;
+    /* text-align: center; */
+    background: #7a1b1d;
+    border-radius: 3px;
+    color: #fff;
+}
+ 	 .icon-6:hover { border-radius: 50%;}
+  

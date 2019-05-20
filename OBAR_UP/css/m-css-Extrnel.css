@@ -1,0 +1,991 @@
+  /***************************************************************************************************************
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR pages             ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              start import  pages*                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+componnt/shafleScripit.css 
+componnt/slider-teem.css 
+  
+   
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End import  pages*                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+/************************** 
+* 1. imported styles 
+***************************/
+
+
+
+@import url(comopnnt/shafleScripit.css)
+@import url(comopnnt/slider-teem.css)
+ 
+.sec-padding {
+    padding: 80px 0;
+}
+.sec-margin{
+    margin: 50px 0;
+
+}
+
+body{
+
+}
+
+body{
+/*
+min-height: 4000px;
+  color: #000; 
+  height: 4000px;
+  background-color: #fff;
+  font-family:tahome;  
+  position:relative
+ height: 5000px;
+ background: #fff;
+*/
+ 
+}
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+
+.margin{	
+	margin: 100px 0 ;
+}
+
+.padding{	
+	padding: 100px 0 ;
+}
+
+.h4-title-con{ 
+	margin-top: 15px;
+    margin-bottom: 9px;
+    font-weight: 500;
+    color: #0e0e0e;
+    font-size: 33px;
+    font-weight: bold;
+/*    font-family: sans-serif;*/
+}
+.span-title-con{
+
+}
+/** start section  glopl*/
+.title{
+	margin: 30px 0;
+}
+/*------------*/
+.title .span-title-con  {
+	font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #999;
+/*    font-family: sans-serif;*/
+	
+ }
+p{
+	    line-height: 28px;
+    color: #666;
+    /* line-height: 1.5; */
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: 'Open sans', sans-serif;
+ }
+ /*End section ftchours ?2*/
+ 
+.span-btn{
+	    padding-right: 10px;
+    font-size: 17px;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+/**End section  glopl*/ 
+/**start custom*/
+ .h2-section-title{
+	
+	padding-top: 0 !important;
+	margin: 0;
+}
+/**End custom */ 
+ 
+
+ 
+/*****************************************************************/
+/*start header*/
+.navbar{
+ 	color: #000;
+	background: #fff;
+	margin: 0;
+}
+.nav.navbar-nav{
+	float: right;
+	color: #000;
+	
+}
+.navbar-nav > li > a{
+	color: #000;
+}
+/*End header*/
+.welcome{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/welcome.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.75);
+	position: absolute
+}
+
+
+
+
+/*****************************************************************/
+
+/*gloople*/
+
+p{
+    font-family: 'Open sans', sans-serif;
+
+}
+.span-title {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #999;
+}
+.skills-area p {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+.skills-area h4 {
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+/*================start About ====================*/
+
+.img-about ,.c-img img{ 
+    width: 100%;
+    max-width: 100%;
+    height: 375px;
+    margin-bottom: 30px;
+/*	height: auto;*/
+	
+ }
+
+
+ 
+@media(max-width:992px){
+
+.contebt-Anout h4  {
+      font-weight: 800;
+     font-size: 18px;
+}
+}
+.contebt-Anout h4  {
+         margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #333;
+	
+ }
+.contebt-Anout p  {
+    
+      font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Open sans', sans-serif;
+ }
+
+@media(max-width:992px){
+
+ .contebt-Anout p.hidin-p {
+     
+ display: none
+ } 
+}
+ .btn{
+ 
+      display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #f8b403;
+/*    color: #fff;*/
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    transform: perspective(1px)translateX(0px);
+    transition: all 0.2s ease 0s;
+    border: 1px solid #f8b403;
+	 color: #fff;
+	 margin: 27px 2px;
+}
+.btn>a{
+color: #fff;
+}
+/*================start About ====================*/
+
+
+/*================start Why-choos us  3 ====================*/
+.sec-Why-choos{  
+     min-height: 500px;
+	position: relative;
+}
+ 
+ .c-img-why{
+  	width: 100%;
+      height: 100%;
+    background-image: url(../img/why%20-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ 	min-height: 500px;
+ }
+.c-img-why{
+/*background: red;*/
+}
+
+.choose	.content-m-t{
+	margin-top: 60px;
+}
+
+/*================End Why choos us  3 ====================*/
+
+/*================start features-img 3 ====================*/
+.c-img>img{
+  width: 100%;
+    max-width: 100%;
+    height: 375px;
+    margin-bottom: 30px;
+	height: auto;
+}
+.c-col-p-apan span{}
+.c-col-p-apan h4{}
+.c-col-p-apan p{}
+
+.c-img{
+      background-image: url(../img/features.jpg);
+     position: relative;
+     background-size: cover;
+    height: 400px;
+    background-blend-mode: overlay;
+    background-color: rgba(.5,.5,.5,.1,.1);
+ 
+	 
+  }
+.overlay{
+ 
+}
+  .c-img img{ 
+    width: 100%;
+    max-width: 100%;
+    height: 375px;
+    margin-bottom: 30px;
+	height: auto;
+	
+ }
+
+.c-col-p-apan span  {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #999;
+	
+ }
+
+.c-col-p-apan h4  {
+         margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #333;
+	
+ }
+.c-col-p-apan p  {
+    
+      font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Open sans', sans-serif;
+ }
+.overlay{
+
+      width: 100%;
+    height: 100%;
+    /* background: red; */
+    z-index: 9999;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.c-img .overlay{
+	    background-color: rgba(0,0,0,0.45);
+
+}
+ 
+ 
+/*================End features-img ====================*/
+
+
+/*================start sec-video ====================*/
+.sec-video{
+
+background:  #f4f4f4;
+	width: 100%;
+	 
+	position: relative;
+ 	min-height: 500px;
+	overflow: hidden;
+}
+.c-img-video i{
+display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    color: #333;
+    background-color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    padding-left: 5px;
+    border: 5px solid #f4f4f4;
+    left: 45%;
+    height: 40;
+    top: 40%;
+	cursor: pointer;
+}
+.c-img-video{
+position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url(../img/%D9%88%D8%B6%D8%AD%D9%87-%D8%B3%D9%84%D8%A7%D9%84%D9%84%D9%85.PNG);
+/*    background-size: cover;*/
+/*    background-attachment: fixed;*/
+/*    background-position: top;*/
+	width: 100%;
+	min-height:500px; 
+	background-repeat: no-repeat;
+}
+.c-video{
+/*padding: 80px 50px;*/
+}
+/*================End sec-video  ====================*/
+
+
+
+
+
+
+/*start componnt section statstk*/
+.statistics   {
+     color: #fff;
+     background:url(../img/stat-img/nambr.jpg) no-repeat center center  fixed;
+    min-height: 300px; 
+	    color: #fff;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+	background-attachment: fixed;
+	    text-align: center;
+ 	margin-bottom:100px;
+ }
+.sec-statstk{
+	background-image: url(../img/stat-img/nambr.jpg) ;
+ 	color: red;
+    height: 400px;
+    color: #fff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    background-attachment: fixed;
+	    width: 100%;
+
+ }  
+.sec-statstk{     
+    text-align: center;
+    width: 100%;
+    line-height: 14;
+}
+
+.statistics  .data{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+	padding-top: 40px;
+	padding-bottom:55px;
+ 	color: #fff;
+ }
+ .statistics h1{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 60px;
+} 
+.stats .icon-sta{
+ 	color: #fff;
+	display: block;
+    margin: auto;
+ }
+.stats  article{
+text-align: center;
+  }
+
+.statistics .stats:hover .stats  article i{
+  	color: #fff;
+	background: #000;
+  }
+
+
+.statistics .stats:hover i{
+    background-color: #f8b403;/*mincolor*/
+	border: none;
+ 
+}
+.statistics .spng:hover{
+	
+	color: #00f;
+ }
+.c-col-services:hover.c-col-services i{
+       background-color: #f8b403;
+    color: #fff;
+}
+footer a>i:hover{
+
+    background-color: #f8b403;
+ }
+/*---------------------*/
+
+/*---------------------*/
+
+  .statistics .stats:hover {
+		color:#fff;
+	    transition: all 2.5s ease;
+
+ -webkit-transition-duration:0.7s
+        -moz-transition-duration:0.7s;
+        -o-transition-duration:0.7s;
+        -mos-transition-duration:0.7s; 
+            transition-duration:0.7s;
+}
+ 
+
+
+
+
+ .stats span{
+display: block;
+}
+.statistics .stats{
+    /* margin-bottom: 40px; */
+    margin-top: 15%;
+}
+  
+.stats .p-p-statst{
+    font-weight: 400;
+    color: #ddd;
+    font-size: 21px;
+}
+.stats span
+{
+	text-align: center;
+	display: block;
+	font-size: 20px;	
+	font-size:30px;
+	font-weight: 800px;
+    margin: 30px 0;
+	color: #fff ;
+    margin-bottom: 3px;
+	
+}
+ 
+.statistics .stats i{
+	font-size: 30px;
+    color: #fff;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    transition: all 0.25s ease-in-out;
+ 
+    
+}
+
+ 
+.statistics .spng {
+/*		color:#d2be85;*/
+/*			color:#fff;*/
+			color:#fff;
+	border: none;
+
+}
+
+ /*============End componnt section statstk==============*/
+/*============start  section statisics-numbr===========*/
+.statisics-numbr{
+  background:url(../img/stat-img/nambr.jpg) no-repeat center center  fixed;
+	min-height: 300px;
+}
+/*============End section statisics-numbr==============*/
+  /*============start   section Our-Services==============*/
+.Our-Services .c-col-services{
+    margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.Our-Services .c-col-services i{
+    font-size: 35px;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    background-color: #f4f4f4;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f8b403;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.Our-Services .c-col-services h4{
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: #333;
+font-size: 22px;
+}
+.Our-Services .c-col-services p{
+font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666;
+}
+
+ /*============End  section Our-Services==============*/
+ /*============start  section Our-Services-bg-img==============*/
+/*start componnt section statstk*/
+  .Our-Services-img {
+      background:url(../img/welcome.jpg) no-repeat center center ;
+	  min-height: 500px;
+ }
+  .statistics  .data{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	
+ }
+.statistics{
+position: relative;
+}
+.Our-Services-img .Our-Services .c-col-services{
+
+       background-color: #f8b403;
+}
+.Our-Services-img .c-col-services i{
+	
+      background-color:red; 
+       color:#fff; 
+
+}
+ 
+
+
+
+.Our-Services .c-col-services {
+      border: none; 
+ }
+
+
+.Our-Services-img .Our-Services .c-col-services i {
+    
+    background-color:#000;
+     
+ }
+
+.Our-Services-img .Our-Services .c-col-services h4{
+    
+    color: #fff;
+ }
+.Our-Services-img .Our-Services .c-col-services p{
+ 
+    color: #eaeafa;
+}
+
+/*============End  section Our-Services-bg-img==============*/
+ .brindes-img {
+    width: 100%;
+    background: #eee;
+    min-height: 262px;
+    margin-bottom: 20px;
+}
+ 
+		.contant img {
+
+    vertical-align: middle;
+    margin-bottom: 30px;
+    padding: 35px;
+    position: absolute;
+    width: 168px;
+    margin: 70px 0;
+    padding: 50px -1px;
+}
+
+/*============start  section skills==============*/
+.skills{
+width: 100%;
+	height: 500px;
+	background: red;
+	position: relative;
+    background-image: url(../img/skills.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+  .overlay{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	
+ }
+
+/*============End  section   skills==============*/
+/*============start  section .brindes==============*/
+ .prnd-imges {
+    width: 100%;
+    background: #eee;
+     margin-bottom: 20px;
+	  	text-align: center;
+			padding: 50px 0 ;
+
+}
+ 
+		.con-img-brind  img {
+			margin-bottom: 35px;
+			width: 120px;
+			margin:20px 0;
+			text-align: center;
+}
+/*============End  section .brindes==============*/
+ 
+ /*============start footer ==============*/
+
+footer{    padding: 40px 0 20px 0;
+    width: 100%;
+/*    min-height: 300px;*/
+    background-color: #222;
+    text-align: center;
+}
+
+footer a>i{
+    font-family: 'FontAwesome';
+    font-style: normal;
+    background:#444;
+    color: #fff;  
+	padding: 15px;
+ 	border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-weight: 1000;
+	display: inline-block;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+@media(max-width:768px){
+	footer a>i{
+		margin-left: 0;
+	}
+}
+footer p{
+	font-size: 15px;
+	color: #ccc;
+	margin-bottom: 20px;
+}
+footer p span{
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	color: #fff;
+ }
+.scroll-top-m{   
+	width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #444;
+    text-align: center;
+    position: fixed;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 10px;
+/*    z-index: 9999;*/
+/*    display: none;*/
+    cursor: pointer;
+    padding: 5px;
+}
+/*============End footer ==============*/
+
+.remmpr-w{
+    color: #f8b403;
+    line-height:5.2;
+    font-weight: bold;
+      font-size: 18px;
+}
+
+.d-p-ul-icon{
+    text-align: left ;
+     margin-bottom: 30px 0;
+    margin-bottom: 30px;
+}
+.d-p-ul-icon h4{
+	font-weight: bold;
+}
+.d-p-ul-icon span{
+	color: #999;
+}
+.d-p-ul-icon p{
+margin: 20px 0;
+}
+/**/
+
+.div-firest-contact .btn{
+float: left;
+}
+.no-report{
+display: none;
+}
+
+/*----------start-Hover----*/
+/*----------start-transiton----*/
+.Our-Services .c-col-services{
+ -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	}
+/*----------End transioton----*/
+/*-------start Hover------*/
+
+.stats:hover.stats .icon-sta,
+.c-col-services:hover.icon-tools .hov,
+.c-col-services:hover.c-col-services i,
+.statistics .stats:hover i  
+ {
+     color: #fff;
+    background-color: #f8b403; 
+}
+ .c-col-services{
+	margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+	 color: #fff;
+	 background: #ff1557b0;
+}
+  .c-col-services p{
+	  	 color:#e2dddd;
+
+	  }
+  .c-col-services h4{
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+	  }
+
+ 
+.statistics .stats:hover i{
+ 	border: none;
+ 
+}
+.statistics .spng:hover{
+	
+	color: #00f;
+ }
+ 
+footer a>i:hover{
+
+    background-color: #f8b403;
+ }
+/*---------------------*/
+
+/*---------------------*/
+
+  .statistics .stats:hover {
+		color:#fff;
+	    transition: all 2.5s ease;
+  		-webkit-transition-duration:0.7s
+        -moz-transition-duration:0.7s;
+        -o-transition-duration:0.7s;
+        -mos-transition-duration:0.7s; 
+            transition-duration:0.7s;
+}
+
+
+.statistics-n .c-col-services {
+	
+	border: none;
+}
+
+/*-------End Hover-------*/
+.Our-Services .c-col-services{
+background: #fff;
+
+border: 1px solid #eee}
+ 
+ @media (min-width: 1200px)
+.Our-Services .container {
+padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+background: #000;
+}
+.statistics-n.services3-icon{
+	
+	background: url(../img/welcome.jpg) no-repeat center center fixed;
+}
+.statistics-n.services3-icon.statistics-n .data-n {
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    padding-top: 85px;
+    padding-bottom:85px;
+    min-height: 400px;
+    color: #fff;
+}
+/*End header*/
+ .statistics-n.services3-icon{
+	width: 100%;
+    min-height: 400px;
+	background-image: url(/img/welcome.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.welcome.statistics-n.services3-icon .overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.75);
+	position: absolute
+}
+.services3-icon .c-col-services i{
+	border: none;
+	
+} 
+.services3-icon .c-col-services p{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+      font-family: sans-serif;	
+}
+/*-------------------PRANdes Sections------------------*/
+/*------------------start  section join-us------------------*/
+ .join-us{
+     color: red;
+     background:url(../img/welcome.jpg) no-repeat center center  fixed;
+    min-height: 200px; 
+	color: #fff;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+	background-attachment: fixed;
+	    text-align: center!important;
+	 margin-top: -25px;
+	 	 margin-bottom: -22px;
+
+   }
+.join-us   article{
+     margin: 0 auto;
+    color: #eee;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+	font-size: 18px;
+    line-height: 1.5em;
+ }
+	.join-us  .data-n{
+    background-color: rgba(0,0,0,0.8) ;
+    color: #fff;
+	padding-top: 40px;
+/*	padding-bottom: 70px;*/
+ 	color: #fff;
+ }
+	.join-us  .data-n i{
+	font-weight: bold;
+    font-size: 20px; 
+ }
+ .join-us .conntent {
+	 margin-top: 100px;
+ }
+/*------------------End  section join-us------------------*/
+/*------------------start  tstmon join-us------------------*/
+ .span-border {
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #7cd62f;
+    margin: auto;
+    position: relative;
+    bottom: 3px;
+}
+.line {
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    margin: auto;
+}
+.app-review {
+   
+    margin-top: 100px!important;
+}

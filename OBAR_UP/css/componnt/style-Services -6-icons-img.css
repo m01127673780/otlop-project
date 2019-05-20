@@ -1,0 +1,297 @@
+	/***************************************************************************************************************
+	||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Moti               ||||||||||||||||||||||||||||||||||
+	****************************************************************************************************************
+	||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 3. header styles 
+* 6. footer styles 
+* 14.contact-us styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+/************************** 
+* 1. imported styles 
+***************************/
+@import url(header.css);
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+
+/************************** 
+* 2. miscelnious styles 
+***************************/
+	body{
+	color: #000; 
+	background-color: #f7f7f7;
+	font-family: tahome;  
+	position:relative;
+	/*	*/
+	font-family: "HelveticaNeue";
+	color: #888888;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: .02em;
+	}
+	h1, h2, h3, h4, h5, h6, p , div{
+	margin: 0;
+	padding: 0;
+	} 
+
+	.margin{	
+	margin: 100px 0 ;
+	overflow: hidden;
+	}
+
+	.padding{	
+	padding: 100px 0 ;
+	}
+
+	/*
+	****
+	only add this classto body
+	if preloader is on
+	other wise REMOVE IT.
+	****
+	*/
+	/**End glopl*/ 
+	/** start section  glopl*/
+
+
+
+
+	/**End section  glopl*/ 
+
+	/*****************************************************************/
+
+
+
+
+	/*End section servis*/
+
+
+
+
+
+	/*===================start page tow==============================*/
+
+
+	/*=================================================================*/
+	.section-overlay{
+	color: #000;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+
+	} 
+
+	a:hover{
+	text-decoration: none;
+	}
+
+
+	/*=======================================*/
+
+
+	/*---------------------golply---------------------------------*/
+
+	.c-panel .content{
+	background-color: #faf4f9;
+	}
+	.color{
+
+	color: #fff;
+	}
+
+	.video-features{
+	background: none!important;
+
+	}
+	/*************************/
+	.app-screenshot {
+	padding-top: 110px;
+	padding-bottom: 115px;
+	background:transparent;
+	}
+
+
+	.section-All-tow-icon{
+	background: /*262c38*/#ddd url(../../img/background/bg-map.png)no-repeat top;
+	/* 	color: #000;*/
+	background-size: cover;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	}
+	.section-2icon-p .h3-border:before  
+	{
+	width: 122px;
+	}
+	.section-2icon-p .h3-border:aftar  
+	{
+	width: 122px;
+	}
+	background: #eee; 
+	width: 100%;
+
+	}
+
+	.section-2icon-p .All-2section{
+	width: 100%;
+
+	}
+	.All-2section{
+	padding-bottom: 10%;
+	}
+
+	.div-first-icon{
+	width:100%; 
+	}
+	.All-2section .i-icon2-2{
+	width:85%; 
+	}
+	.All-2section .span-woord-2{
+	/*background: #00f;*/
+	width:15%;
+	height: 100px;
+	/*	background: #756321;*/
+	}
+	.All-2section{
+	position: relative;
+	text-align: right;
+	}
+	.All-2section .span-icoon-2{
+	float: right;
+	width: 172px;
+	height: 117px;
+	background: #25ccc2;
+	line-height:2.5;
+	font-size: 40px;
+	color: #fff;
+	margin-left: 45px;
+	text-align: center;
+	border-right: 6px solid #1da199;
+	/*	margin-bottom: 200px;*/
+	margin-top: 54px;
+	}
+
+	.span-icoon-2:after{
+	content: "";
+	display: block;
+
+	position: absolute;
+	top: 48px;
+	padding-right: -281px;
+	padding-right: -143px;
+	right: 172px;
+	width: 0;
+	height: 0;border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #25ccc2 transparent transparent;
+	top: 93px;
+	}
+
+	text-align: right;
+	font-size: 15.5px;
+	flex-direction: row-reverse;
+	font-weight: bold;
+	}
+	.span-icoon-4-one
+	{ 
+	margin-bottom: 100px
+
+
+	}
+
+	.All-2section .icon-green:after{
+	border-color: transparent #002c63 transparent transparent;
+
+
+	}
+	.All-2section .icon-green{
+	background: #002c63;
+	border-color: #042855;
+
+	}
+
+
+	.All-2section .span-icoon-2-tow:after{
+	border-color: transparent #33afe7 transparent transparent
+	}
+	.All-2section .span-icoon-2-tow{
+
+	background: #33afe7;
+	border-color: #2E9FE0;
+	}
+
+
+	.All-2section .icon-bule:after{
+	border-color: transparent #7f181b transparent transparent
+	}
+	.All-2section .icon-bule{
+
+	background:  #7f181b;
+	border-color: #632426;
+	}
+
+
+
+	.All-2section .icon-yellow:after{
+	border-color: transparent #5ecc62  transparent transparent
+	}
+	.All-2section .icon-yellow{
+
+	background: #5ecc62;
+	border-color: #6fba72;
+	}
+	.All-2section .icon-red:after{
+	border-color: transparent #ea1d5d  transparent transparent
+	}
+	.All-2section .icon-red{
+
+	background: #ea1d5d;
+	border-color: #c23c66;
+	}
+
+	/*=============End-acrdoun================*/
+
+	.span-p-p{
+	width: 300px;
+
+	}
+	.section-All-tow-icon {
+	background: /*262c38*/#fff url(../img/background/bg-map.png)no-repeat top;
+	/* color: #000; */
+	background-size: cover;
+	width: 100%;
+	padding: 0;
+	line-height: 2;
+	margin: 0;
+	font-weight: bold;
+	font-family: sans-serif;
+	}
+	.section-All-tow-icon {
+	background: /*262c38*/#fff url(../../img/background/bg-map.png)no-repeat top;
+	/* color: #000; */
+	background-size: cover;
+	width: 100%;
+	padding: 0;
+	line-height: 2.;
+	margin: 0;
+	margin-top: -22px;
+	}
+
+	.AQaountaty-Bonk p{
+	color: #fff;
+	}
+	.AQaountaty-Bonk {   color: #fff;
+	background: #262c38 url(../../img/background/bg-map.png)no-repeat top;
+	}
+	@media(max-width:500px){ 
+	.section-All-tow-icon  strong{
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 3px solid #000;
+	color: #00f;
+	}
+	}

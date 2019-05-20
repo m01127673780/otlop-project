@@ -1,0 +1,124 @@
+
+     
+        /*==============start what-this-web-sit?========(?5)==============*/ 
+        .what-this-web-sit{
+        width: 100%;
+        color:wheat;
+        padding-bottom: 100px;
+        background: #fff;
+        }
+        .div-img-what-this{
+        padding: 50px;
+        height: 200px;
+        }
+        .col-steang{
+        height: 350px;
+        width: 100%;
+        color: #f00;
+        }
+        /*-----------*/
+        .col-img{
+        height: 320px;
+        width: 100%;
+        padding-top: 
+        10px;
+        }
+
+        .col-img .video{
+        color: #fff;
+        background-image: url(../../img/bac-hand.jpg);
+        background-size: cover;
+        padding: 95px 0;
+        background: #000;
+        }
+        .h3-p {
+        color: #fff;
+        font-weight: bold;
+        font-size: 21px;
+        margin-top: 30px;
+        }
+        .col-img .video i{
+        margin-bottom: 14px;
+        background: #f00;
+        color: #fff;
+        cursor: pointer;
+        padding: 22px 22px; 
+        border-radius:50%;
+        font-size: 22px;
+        font-weight: bold;  
+        }
+        /**------------------*/
+        .aside-what-chase-us{
+        text-align: right;
+        width: 100%;
+        background:#172c41;
+        /*  border: 3px solid #fff;*/
+        transition: all .1s ease;
+        margin-bottom: 3px;
+        position: relative;
+        cursor: pointer;
+        margin: 10px 0;
+        }
+        .aside-what-chase-us:hover{
+        background:#172c41;
+        color: #fff;
+
+        }
+        .active-aside,.active-aside-min{
+        background:#172c41;
+        color: #fff;
+        }
+        .active-aside .span-waht-this-us{
+        color: #fff;
+        }
+        .active:before{
+        color: #fff;
+        } 
+        .aside-what-chase-us:hover .span-waht-this-us ,.icon-pulas{
+        color: #f6c948;
+        }
+        aside .span-waht-this-us {
+        text-align: right;
+        color: #fff;
+        font-weight: bold;
+        padding-top: 12px;
+        position: relative;
+        }
+        .icon-3:before {
+        content: "\f135";
+        margin-left: 20px;
+        padding: 19px 14px 10px;
+        background:#f6c948;
+        color: #fff;
+        font-size: 25px;
+        width: -20%;
+        display: inline-block;
+        }
+        /*/*----------------*/
+        .aside-what-ch-us-p:before{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0px 10px 15px 10px;
+        border-color: transparent transparent  #172c41 transparent;
+        position: absolute;
+        left: 50px;
+        top: -15px;
+        }
+        .icon-pulas{
+        color: #fff;
+        top: 29%;
+        left: 5%;
+        position: absolute;
+        display: block
+        }
+        .aside-what-ch-us-p{
+        display: none;
+        padding: 15px;
+        font-size: 19px;
+        color: #fff;
+        background: #172c41;
+        text-align: right;
+        position: relative;
+        }

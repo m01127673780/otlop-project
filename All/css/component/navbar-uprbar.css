@@ -32,6 +32,7 @@
 
 	}
 	/*--============ start slider-img===============----------------*/
+/*
 	.center{
 	background-color: #293646;
 	color: #fff;
@@ -39,6 +40,13 @@
 	padding-top: 15px;
 
 	}
+*/
+.c{
+	background-color: #293646;
+    color: #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
 	.i-phon-envelope{
 	font-size: 20px;
 	background: #f7747a;
@@ -49,7 +57,7 @@
 	text-align: center;
 	font-size: 17px;
 	padding-left: 14px;
-	padding: 7px;
+    padding: 7.5px;
 	font-size: 13px;
 	font-weight: bold;
 	margin-right: -6px;
@@ -210,6 +218,7 @@
 	position: absolute;
 
 	}
+
 	@media(max-width:400px){
 	.img-nav{   
 	width: 84px !important;
@@ -350,19 +359,21 @@
 	}
 
 	.phon-word1, .phon-word2 {
-	background: #25ccc2;
-	padding: 2px 12px 3px 5px;
-	border-top: 7px;
-	border-top-right-radius: 9px;
-	margin-right: -4px;
-	margin-right: 10px;
-	/* padding: 6px; */
-	font-size: 13px;
-	font-weight: bold;
-	padding-top: 8.5px;
-	padding-bottom: 7px;
-	color: #fff;
-	}
+    background: #25ccc2;
+    padding: 2px 12px 3px 5px;
+    border-top: 7px;
+    border-top-right-radius: 9px;
+    margin-right: -4px;
+    margin-right: 10px;
+    /* padding: 6px; */
+    font-size: 13px;
+    font-weight: bold;
+    /* padding-top: 9.5px; */
+    /* padding-bottom: 7px; */
+    color: #fff;
+    padding: 10px ;
+    padding-bottom: 7px;
+}
 
 	/*//////////////////////////////////*/
 	.van-bar {
@@ -469,7 +480,7 @@
 	color: #000!important;
 	}
 	/*-----------------dorowb dowen-------------------------------*/
-	.item{
+	.mega-menu  .container .item{
 
 	width: 243px; 
 	}

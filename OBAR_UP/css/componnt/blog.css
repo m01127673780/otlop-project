@@ -1,0 +1,138 @@
+  /*theme Name:my site
+theme coder : MOhamed Elsaeed   
+progct Designer:M:saeed Acadmy;
+dat: 27/4/h:8:Am
+first color:#08526d
+secondcolocr:#eclc23
+*/
+/*start golobl*/
+ 
+/*start golobl*/
+
+
+ 
+/**start glopl*/ 
+/********************************************************************************/
+ /************************* endlatest-post*****************************************/
+/******** **************************************/
+.latest-posts{
+  margin:auto;
+	    background-color: #f4f4f4;
+}
+.feutured-work p{
+     
+}
+.section-desc{
+	 color: #666;
+    font-family: sans-serif;
+	width: 100%;
+}
+.latest-posts .card {
+    margin-bottom: 30px;
+}
+.card {
+    position: relative;
+      border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+	border: none;
+	width: 100%;
+}
+.card-body {   
+	padding-bottom: 44px;
+   }
+
+.latest-posts .section-desc {
+    line-height: 1.6;
+ }
+.latest-posts h4 {
+    margin-top: -10px;
+    font-size: 23px;
+    font-weight: bold;
+     text-align: left;
+    color: #333;
+     font-family: sans-serif;
+}
+ .card-title .card-link {
+margin: 0
+  }
+ .latest-posts a,
+.latest-posts a i {
+          color: #ff2462;
+	      -webkit-transition:all .5s ease-in-out;
+          -moz-transition:all .5s ease-in-out;
+          -ms-transition:all .5s ease-in-out;
+          -o-transition:all .5s ease-in-out;
+          transition:all .5s ease-in-out;
+}
+.latest-posts a .fa-long-arrow-right:hover.latest-posts a i
+{    
+	margin-left: 2px; 
+    color: #ff2462;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.latest-posts button:hover{
+    background-color:#121212 ;
+         color:#e3ce90;
+}
+.latest-posts .center-h2{
+    text-align: center;
+    margin-left:35%;
+        font-size: 2rem;
+}
+.latest-posts img{
+    
+    transition: all .5s ease;
+}
+.latest-posts img:hover{
+    	box-shadow: 
+        10px 10px 10px #222 ,
+        -10px -10px  10px #222;
+        border: 1px solid #e3ce90;    
+}
+
+.article-subtitle{
+	    text-align: left;
+    color: #888;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+.a-img-Ather img {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 35px;
+    position: absolute;
+}
+.span-a-bolog{
+    margin-top: 11px;
+    display: inline-block;
+	font-weight: bold;
+}
+.span-Author{
+    margin-top: 11px;
+    display: inline-block;
+	color: #999;
+	margin-left: 78px;
+ } 
+.name-Author{
+  	color: #222;
+	font-size: 15px;
+ }
+
+.blog.owl-carousel .owl-item .a-img-Ather img {
+	width: 50px;
+}
+.blog.owl-carousel .owl-item .owl-prev {
+display: none;
+} 
+/***********************************************************/
+.blog.owl-theme .owl-dots .owl-dot{
+     display: inline-block;
+    zoom: 1.5;
+     width: 21px;
+    padding: 23px 0;
+ } 

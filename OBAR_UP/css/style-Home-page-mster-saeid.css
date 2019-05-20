@@ -1,0 +1,243 @@
+    /***************************************************************************************************************
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Moti               ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 3. header styles 
+* 6. footer styles 
+  * 14.contact-us styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+/************************** 
+* 1. imported styles 
+***************************/
+@import url(componnt/section-header-navbar.css);
+@import url(componnt/shooc-us.css);
+@import url(componnt/owlcoursl-22.css);
+@import url(componnt/sAsllddeerr-bootdtrip.css);
+@import url(componnt/prising-tebl.css);
+@import url(vendrs/bootstrap.min.css);
+@import url(vendrs/bootstrip-slider/bootstrap.min.css);
+@import url(vendrs/font-awesome.min.css);
+@import url(vendrs/bootstrap+fontAwsame/font-awesome.min.css);
+@import url(vendrs/et-line-icons.css);
+@import url(vendrs/animate.min.css);
+@import url(vendrs/magnific-popup.css);
+@import url(vendrs/owl.carousel.css);
+@import url(vendrs/owl.theme.default.min.css);
+@import url(vendrs/Animate-Headline222.css.css);
+@import url(vendrs/plugins/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css);
+@import url(vendrs/lightbox.css);
+@import url(vendrs/lity.min.css);
+@import url(componnt/blog.css);
+@import url(componnt/header.css);
+@import url(componnt/statistics.css);
+@import url(componnt/servis-icon.css);
+@import url(componnt/buttons.css);
+/*@import url(componnt/contact-us-form.css);*/
+/*@import url(componnt/shaufle-script-plugin.css);*/
+@import url(componnt/shafleScripit.css);
+@import url(componnt/exprets.css);
+@import url(componnt/buttons.css);
+
+
+
+
+/*-----------------------*/
+@import url(componnt/footer-larg.css);
+@import url(componnt/style-social%20madia.css);
+@import url(componnt/style-contact-us-light.css);
+@import url(componnt/style-servisees-icon-left-Rigth.css);
+@import url(componnt/style-step-by-step.css);
+@import url(componnt/shaufle-script-plugin.css);
+ 
+/*-----------------------*/
+
+ /************************** 
+* 2. miscelnious styles 
+***************************/
+body {
+  
+} 
+
+/*start section servis*/
+
+/*custm style*/
+
+.custm-head p{
+ color: #fff;
+	
+}
+
+body{
+    color: #000; 
+/*      background-color: #fff;*/
+/*  font-family: tahome;  */
+	position:relative;
+/*	*/
+/*	 font-family: "HelveticaNeue";*/
+  color: #888888;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: .02em;
+     font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+
+.margin{	
+	margin: 0 0 ;
+	overflow: hidden;
+}
+
+.padding{	
+	padding: 100px 0 ;
+}
+
+hr{
+    background: #fff;
+	color: #eee;
+/*    padding-top: 80px ;	*/
+}
+/* start only add this classto body*/
+ 
+
+.g-recaptcha{
+	margin-left: 143px;
+}
+
+@media(max-width:768px){
+.g-recaptcha{
+	margin-left:0;
+	margin-bottom: 20px;
+
+}
+}
+
+.overv-hidd{
+	overflow: hidden;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2.5em;
+    height: 3.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.fa-angle-up a{
+	z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 32px;}
+/* End only add this classto body*/
+ 
+ /**End glopl*/ 
+/** start section  glopl*/
+
+ 
+
+
+/**End section  glopl*/ 
+
+/*****************************************************************/
+ 
+
+
+
+/*End section servis*/
+
+
+
+
+ 
+/*===================start page tow==============================*/
+
+ 
+ /*=================================================================*/
+ .section-overlay{
+      color: #000;
+    width: 100%;
+	height: 100%;
+background-size: cover;
+
+} 
+ 
+a:hover{
+	text-decoration: none;
+}
+ 
+ 
+/*=======================================*/
+  
+
+ /*start section servis*/
+
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+.margin{	
+	margin: 100px 0 ;
+	overflow: hidden;
+}
+.padding{	
+	padding: 100px 0 ;
+}
+ .quick-help-div-bacg .owl-carousel .owl-item  img{
+height: 300px;
+} 
+/**End glopl*/ 
+/*========================start-page- slse====================*/
+
+
+/*========================start-page- slse====================*/
+
+
+.cd-headline.clip.is-full-width{
+	font-size: 30px;
+	color: #fff;
+}
+
+
+section{
+	overflow: hidden;
+}
+
+.fa-angle-up a{
+	
+    z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 32px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #0f0d0d;
+    text-align: center;
+    /* margin: 5px; */
+    font-size: 34px;
+    line-height: 1.5;
+    transition: All 0.25s ease-in-out;
+    background: #000;
+}
+.fa-angle-up a:hover{
+	background: #7cb62f;
+	border-color: transparent;
+}
+.welcome{
+	background-image: url(../img/%D9%88%D8%B6%D8%AD%D9%87-%D8%B3%D9%84%D8%A7%D9%84%D9%84%D9%85.PNG) ;
+}

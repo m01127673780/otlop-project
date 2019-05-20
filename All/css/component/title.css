@@ -1,0 +1,73 @@
+
+		/*================================start upper-bar==================================*/
+		body{
+		background :  #eee !important;
+		color: #000;
+		width: 100%;
+		}
+		/*//////////////////////////////////*/
+		.upper-top-bar{
+		background-color: #293646;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		} 
+		/*-----------------dorowb dowen-------------------------------*/
+		/*================= End nav bar ================================*/
+		@media (max-width: 768px){
+		.main-title-h1 h1:after {
+		right: 29%!important;
+		width: 60px!important;
+		}
+		.main-title-h1 h1:before{
+		min-width: 60px!important;
+		left: -20%!important;
+		left: 32%!important;
+		}
+		}
+ 		/*==============start main-title-h1 ======================*/
+  		@media(max-width:400px){
+		.main-title-h1 h1:after {
+		right: 26%!important;
+		}
+
+		.main-title-h1 h1:before {
+		left: 26%!important;
+ 		}
+ 		}
+  		.main-title-h1 h1 {
+		margin-bottom: 20px;
+		}
+ 		.main-title-h1 {
+		text-align: center;
+		margin-bottom: 55px;
+		position: relative;
+		padding-top: 30px;
+		color:#f7747a;
+		}
+		.main-title-h1 h1:before {
+		position: absolute;
+		bottom: 8px;
+		height: 2px;
+		content: " ";
+		display: block;
+		background: #00cabe;
+		width: 6%;
+		left:-20%;
+		margin: 0 auto;
+		left: 41%;
+		}
+		.main-title-h1 h1 {
+		font-size: 20px;
+		}
+		.main-title-h1 h1:after {
+		position: absolute;
+		bottom: 8px;
+		height: 2px;
+		content: " ";
+		display: block;
+		background: #00cabe;
+		right: 41%;
+		width: 6%;
+		}
+		/*=============End  section slider-anduprbar========================*/

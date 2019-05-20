@@ -1,0 +1,180 @@
+ /**start upper-bar*/ 
+
+
+.welcome .overlay.over-slider{
+	z-index: 1;
+}
+.upper-bar{
+
+  color: #fff;
+  padding: 20px;
+  font-size:17px;
+  color: #E3CE84;
+	padding: 0;
+  background-color: #7A1B1D;
+    
+
+ }
+
+
+.upper-bar span{
+
+  color: #d7bf8e; 
+	
+
+}
+  .upper-bar .Get-Quote{
+    display: inline-block;
+    border: 1px solid #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+
+  }
+.fA{
+     top: -20px;
+     width: 60px;
+    height: 60px;
+    margin-left: -200px;
+    border-radius: 50%;
+    border: 1px solid #7a1b1d;
+}
+.future-Brend{
+}
+/*end  Upper par*/
+ 
+/*====================================*/
+
+/*start corsoul siader*/
+.slider-top{
+
+  background-color: #ddd;
+	z-index: 999;
+
+}
+
+ .slider-top .carousel-item{
+
+background-size: cover;
+-webkit-background-size:cover;
+-o-background-size:cover
+ background-size:cover;
+}
+ 
+ .slider-top .carousel-one{
+
+	  	   background-image: url('../../img/slader1.jpg');
+}
+ .slider-top .carousel-tow{
+
+	  	   background-image: url('../../img/slader2.jpg');
+}
+
+ .slider-top .carousel-three{
+	  	   background-image: url('../../img/slader3.jpg');
+
+}
+
+  .slider-top .carousel-four{
+	  	   background-image: url('../../img/slader4.jpg');
+
+}
+ .slider-top .carousel-five{
+	  	   background-image: url('../../img/slader5.jpg');
+
+ }
+.slider-top .carousel-sxs{
+
+	  	   background-image: url('../../img/slader7.jpg');
+}
+.indicators-Heder li {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: 5px;
+        /*background-color:#fff;*/
+    border: 1px solid #aaa;
+ -webkit-transition:all .5s ease;
+          -moz-transition:all .5s ease;
+          -ms-transition:all .5s ease;
+          -o-transition:all .5s ease;
+          transition:all .5s ease;
+
+}
+.carousel-indicators .active{
+    height: 18px;
+    width: 12px;
+
+    color:#000;
+    background-color:#7a1b1d;
+    border: 1px solid #fff;
+    margin-top:-8px;
+}
+.carousel-indicators {
+    height: 18px;
+    width: 12px;
+
+    color:#000;
+    background-color:#7a1b1d;
+    border: 1px solid #fff;
+    margin-top:-8px;
+}
+
+ 
+   
+/*End corsoul siader*/
+/*=====================================================*/
+.carousel-item.carousel-tow{
+	height: 100vh!important;
+}
+.carousel-item  {
+	height: 100vh!important;
+}
+
+.carousel-control-next,.carousel-control-prev{
+     font-style: normal;
+    background: #7cb62f;
+    color: #fff;
+
+    border-radius: 50%;
+    height: 51px;
+    width: 45px;
+     font-weight: 1000;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 33px;
+	    padding: 15px;
+    margin-bottom: 10px;
+       text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    color: #000;
+	z-index: 999;
+}
+.carousel-control-prev{
+	    margin-left: 33px;
+    background: #7cb62f;
+
+}
+.carousel-control-next:hover,.carousel-control-prev:hover{
+	background: #f8b403;
+}
+
+
+
+element.style {
+}
+  
+.carousel-indicators   {
+      display: none;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+.indicators-Heder li {
+   display: none;

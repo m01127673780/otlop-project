@@ -1,0 +1,192 @@
+ 
+ /*start componnt section  .portfoli shuflsccript*/
+ .portfoli .images > div img{
+height: 100%;
+width: 100%;
+}
+.portfoli .images > div {
+
+margin-bottom: 20px;
+height: 248px;
+}
+.buttons{
+    text-align: center;
+    margin: 50px 0;
+/*	margin-top: -44px;*/
+}
+
+.buttons button{
+	    width: 109px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 20px 0;
+     font-weight: bold;
+    font-size: 20px;
+
+
+}
+.portfoli .more{
+	width: 250px;
+	padding: 10px;
+	background: #666;
+	color:#fff;
+	border: 0;
+	display: block;
+	text-align: center;
+	margin: auto;
+	outline: 0;
+	cursor: pointer;
+    width: 250px;
+    padding: 10px;
+    background: #666;
+    color: #fff;
+    border: 0;
+    display: block;
+    text-align: center;
+    margin: auto;
+    outline: 0;
+    cursor: pointer;
+    /* width: 109px; */
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    /* width: 109px; */
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    /* margin: 20px 0; */
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    /* margin-right: 5px; */
+    /* margin-left: 5px; */
+    /* margin-bottom: 10px; */
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    padding: 10px 25px;
+    border-radius: 50px;
+    outline: none;
+    /* width: 109px; */
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    /* margin: 20px 0; */
+    font-weight: bold;
+    font-size: 20px;
+	display: block;
+	}
+
+.active-btn{
+background: #7cb62f!important;
+
+}
+ /*-------overley-------*/
+
+.col-over{
+     height: 100%;
+    background-color: transparent;
+    position: absolute;
+/*     display: none; */
+     overflow: hidden;
+    transition: all 1s ease;
+	position: relative;
+}
+ .col-over .overley i{
+ position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    left: 39%;
+    z-index: 5;
+    color: #eee;
+    font-size: 43px;
+	transform: translate(-4% ,-46%);
+}
+ .overley{    
+        position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+	 width: 94%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background: rgba(15, 123, 255, 0.5);
+      -webkit-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease;
+      opacity: 0;
+}
+  .col-over:hover .overley {
+ opacity: 1;
+      -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+      transform: translateX(0%); } 
+.portfoli .images > div img {
+    height: 100%;
+    width: 94%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+	@media (max-width: 768px){
+.col-over {
+     margin-left: 3%;
+} 
+	
+}
+.portfoli .images > div   {
+ 	width: 100%;
+    max-width:100%;
+}
+
+
+
+.buttons button {
+    width: 109px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+     margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    padding: 10px 25px;
+    border-radius: 50px;
+    outline: none;width: 109px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+/*-------End overley-------*/
+/*End section shufle script*/

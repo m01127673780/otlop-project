@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'moti';
+  src:  url('fonts/moti0215.eot?kafkf7');
+  src:  url('fonts/moti0215.eot?kafkf7#iefix') format('embedded-opentype'),
+    url('fonts/moti0215.ttf?kafkf7') format('truetype'),
+    url('fonts/moti0215.woff?kafkf7') format('woff'),
+    url('fonts/moti0215.svg?kafkf7#moti') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="moti-"], [class*=" moti-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'moti' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.moti-curv-1:before {
+  content: "\e900";
+}
+.moti-curv-2:before {
+  content: "\e901";
+}
+.moti-curv-3:before {
+  content: "\e902";
+}

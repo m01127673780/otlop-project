@@ -1,0 +1,66 @@
+  
+
+/*---------butoon-------------------*/
+
+ .butoon-1-a{ 
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #ff2462;
+    color: #fff;
+    border: none;
+    border-radius: 17px;  
+	 position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    transform: perspective(1px)translateX(0px);
+    transition: all 0.2s ease 0s;
+/*    border: 1px solid #ff2462;*/
+    color: #fff;
+    margin: 27px 2px;
+}
+.butoon-1-a:hover span:first-child {
+	background:#444;
+    width:100%;
+    transition: All .2s ease;
+ 
+}
+.from-left span:first-child{
+		 position: absolute;
+		 left: 0;
+		 top: 0;
+		 width: 100%;
+		 height: 100%;
+		 display: block;
+		 border-radius: 10px;
+		 overflow: hidden;
+		 width: 0%;
+		-webkit-transition: All .3s ease;
+		-moz-transition: All .3s ease;
+		-ms-transition: All .3s ease;
+		-o-transition: All .3s ease;
+		transition: All .3s ease;
+		z-index: 1;
+		background: #e74c3c;
+}
+.from-left span:last-child{
+    position: relative;
+	z-index: 2;
+}
+.butoon-1-a a{
+    color: #fff;
+    width: 100%;
+	height: 100%;
+}
+.butoon-1-a a:hover{
+   text-decoration: none;
+ }
+.buttons-effects{
+     margin-bottom: 33px;
+}
+
+/*===========End section footer===========================*/
+
+ .none-background.butoon-1-a{
+	background-color: transparent!important;
+}

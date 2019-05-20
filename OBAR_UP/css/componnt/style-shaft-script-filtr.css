@@ -1,0 +1,229 @@
+
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(magnific-popup.css);
+ 
+ /************************** 
+* 2. miscelnious styles 
+***************************/
+body {
+  
+} 
+ a:hover{
+
+text-decoration: none;
+}
+
+   
+/*custm style*/
+
+.custm-head p{
+ color: #fff;
+	
+}
+
+.owl-carousel .owl-item img{
+
+height: 300px;
+}
+.app-screenshot{
+    background: blue;
+    z-index: 999;
+    margin-top: -102px;
+    margin-bottom: -50px;
+    overflow: hidden;
+}
+   
+/*start section servis*/
+
+
+body{
+/*min-height: 4000px;*/
+   color: #000; 
+/*  height: 4000px;*/
+     background-color: #f7f7f7;
+  font-family: tahome;  
+	position:relative;
+ 
+}
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+
+.margin{	
+	margin: 100px 0 ;
+	overflow: hidden;
+}
+
+.padding{	
+	padding: 100px 0 ;
+}
+
+
+/**End glopl*/ 
+ 
+
+/*start section ftchours ?2*/
+.h2-section-title {
+    font-size: 23px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    padding: 7px 0;
+    padding-top: 60px;
+    margin: 5px 0;
+}
+ .line{
+    width: 200px;
+	height: 2px;
+	background: #ddd;
+	margin: auto
+}
+   .span-border{
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #7cd62f;
+    margin: auto;
+    position: relative;
+    bottom: 3px;
+ }
+
+.section-header p {
+    margin: 15px auto;
+    color: #888;
+    line-height: 1.75;
+    max-width: 700px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.section-header {
+	 margin: 77px 0;
+
+}
+
+/*End section div-title ?3 */
+
+  
+ /*start componnt section  .portfoli shuflsccript*/
+ .portfoli .images > div img{
+height: 100%;
+width: 100%;
+}
+.portfoli .images > div {
+
+margin-bottom: 20px;
+height: 400px;
+}
+.buttons{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.buttons button{
+	    width: 109px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 20px 0;
+     font-weight: bold;
+    font-size: 20px;
+
+
+}
+.portfoli .more{
+	width: 250px;
+	padding: 10px;
+	background: #666;
+	color:#fff;
+	border: 0;
+	display: block;
+	text-align: center;
+	margin: auto;
+	outline: 0;
+	cursor: pointer;
+	width: 109px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+     font-weight: bold;
+    font-size: 20px;
+}
+.active-btn{
+background: #7cb62f!important;
+transition: all 1s ease-in-out;
+}
+.portfoli .more:hover{
+	background: #7cb62f!important;
+
+}
+
+ /*-------overley-------*/
+
+.col-over{
+     height: 100%;
+    background-color: transparent;
+    position: absolute;
+/*     display: none; */
+     overflow: hidden;
+    transition: all 1s ease;
+	position: relative;
+}
+ .col-over .overley i{
+ position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    left: 39%;
+    z-index: 5;
+    color: #eee;
+    font-size: 43px;
+	transform: translate(-4% ,-46%);
+}
+ .overley{    
+        position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+	 width: 94%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background: rgba(15, 123, 255, 0.5);
+      -webkit-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease;
+      opacity: 0;
+}
+  .col-over:hover .overley {
+ opacity: 1;
+      -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+      transform: translateX(0%); } 
+.portfoli .images > div img {
+    height: 100%;
+    width: 94%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+	@media (max-width: 768px){
+.col-over {
+     margin-left: 3%;
+} 
+	
+}
+.portfoli .images > div   {
+ 	width: 100%;
+    max-width:100%;
+}
+
+/*-------End overley-------*/
+/*End section shufle script*/
+ 
