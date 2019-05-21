@@ -1,0 +1,195 @@
+  /***************************************************************************************************************
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Moti               ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 3. header styles 
+* 6. footer styles 
+  * 14.contact-us styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+/************************** 
+* 1. imported styles 
+***************************/
+  @import url(componnt/header.css);
+@import url(componnt/shooc-us.css);
+@import url(componnt/shafleScripit.css);
+@import url(componnt/statistics.css);
+@import url(componnt/footr.css);
+@import url(componnt/whatapp.css);
+@import url(vendrs/bootstrap.min.css);
+@import url(vendrs/font-awesome.min.css);
+@import url(vendrs/animate.min.css);
+@import url(vendrs/magnific-popup.css);
+@import url(vendrs/owl.carousel.css);
+@import url(vendrs/owl.theme.default.min.css);
+ @import url(vendrs/plugins/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css);
+   
+ /************************** 
+* 2. miscelnious styles 
+***************************/
+body {
+  
+} 
+
+/*start section servis*/
+
+/*custm style*/
+
+.custm-head p{
+ color: #fff;
+	
+}
+
+body{
+    color: #000; 
+      background-color: #f7f7f7;
+  font-family: tahome;  
+	position:relative;
+/*	*/
+	 font-family: "HelveticaNeue";
+  color: #888888;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: .02em;
+ 
+}
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+
+.margin{	
+	margin: 100px 0 ;
+	overflow: hidden;
+}
+
+.padding{	
+	padding: 100px 0 ;
+}
+
+/*
+****
+only add this classto body
+if preloader is on
+other wise REMOVE IT.
+****
+*/
+/**End glopl*/ 
+/** start section  glopl*/
+
+ 
+
+
+/**End section  glopl*/ 
+
+/*****************************************************************/
+ 
+
+
+
+/*End section servis*/
+
+
+
+
+ 
+/*===================start page tow==============================*/
+
+ 
+ /*=================================================================*/
+ .section-overlay{
+      color: #000;
+    width: 100%;
+	height: 100%;
+background-size: cover;
+
+} 
+ 
+a:hover{
+	text-decoration: none;
+}
+ 
+ 
+/*=======================================*/
+ 
+
+/*---------------------golply---------------------------------*/
+   
+.c-panel .content{
+background-color: #faf4f9;
+}
+	 .color{
+	
+	color: #fff;
+	}
+	
+.video-features{
+background: none!important;
+
+}
+/************************** 
+* 4. banner styles 
+***************************/
+.banner-static {
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 163px;
+  background: transparent url(../img/curv-bg.png) bottom center no-repeat; }
+  @media (min-width: 1921px) {
+    .banner-static {
+      background: transparent url(../img/curv-bg.png) bottom center no-repeat;
+      background-size: 100%; } }
+  .banner-static .banner-content {
+    padding-top: 88px; }
+    .banner-static .banner-content h2 {
+      color: #0C274C;
+      font-size: 60px;
+      font-family: "HelveticaNeue-Light";
+      margin: 0; }
+      .banner-static .banner-content h2 span {
+        color: #0F7BFF;
+        font-family: "HelveticaNeue-Bold"; }
+    .banner-static .banner-content p {
+      font-size: 18px;
+      color: #888888;
+      line-height: 24px;
+      letter-spacing: .02em;
+      font-family: "HelveticaNeue";
+      margin: 0;
+      margin-top: 15px; }
+  .banner-static .btn-box {
+    margin-top: 38px; }
+    .banner-static .btn-box .thm-btn + .thm-btn {
+      margin-left: 20px; }
+
+@media (max-width: 1080px) {
+  .banner-static .banner-content p br {
+    display: none; } 
+}
+
+/**************************/
+.app-screenshot {
+    padding-top: 110px;
+    padding-bottom: 115px;
+    background: #0f7bff;
+}
+
+.back-g{
+    background: #0F7BFF;
+
+}
+.margin {
+     margin: 0; 
+    overflow: hidden;
+}
+.pulse:before, .pulse:after{
+     width: 30px;
+    height: 30px;
+
+
+}
+ 

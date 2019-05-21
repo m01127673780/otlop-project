@@ -1,0 +1,32 @@
+.paddin-top-fff {
+    background-color: fff;
+    background: #fff;
+}
+body {
+ 
+   background: none;
+}
+.color_fff{
+	color: #fff;
+}
+
+.socil-mide-to {
+     background:none;
+     margin: 0;
+}
+.socil-mide-to {
+    min-height: 10px;
+}
+.Social-Media-upr {
+    font-size: 20px;
+    padding: 7px 11px;
+    text-align: center;
+    background: blue;
+    color: #fff;
+    display: inline-block;
+    /* margin-right: 13px; */
+    border-bottom: 3px solid;
+    border-radius: 3px;
+    height: 45px;
+    width: 10.4%;
+}

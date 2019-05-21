@@ -1,0 +1,87 @@
+ 
+.back-g
+{
+    width: 100%;
+	min-height:500px;
+	z-index: 1;
+
+}
+
+.bac-one
+{
+    position: relative; 
+    background-size: cover;
+} 
+
+@media(max-width:768px)
+{ 
+     .bac-one:before{
+	 left: 0%!important;
+     width: 100%!important;
+     height: 499px!important;
+	 
+}
+	 
+}
+@media(max-width:350px){ 
+ .bac-one:before
+{
+	display: none;
+
+}
+	 
+}
+ .bac-one:before
+{
+		content: "";
+		 position: absolute;
+		bottom: 0;
+		left: 40%;
+		width: 60%;
+		height: 499px;
+		background: url(../../img/waht-About/about-3.png);
+		background-size: cover;
+  
+}
+.div-bacg-box
+{ 
+	width: 30%;
+    left: 9%;
+    position: absolute;
+    top: 139px;
+     background: #f9f4f7;
+    line-height: 2;
+    padding-left: 20px;
+    padding: 18px;
+}
+
+.div-bacg-box p
+{
+    position: relative;
+    width: 100%;
+     text-align: right;
+    padding: 0px 21px;
+    font-size: 16px;
+    font-weight: bold;
+ } 
+.div-bacg-box p:before
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #f9f4f7;
+    border-style: solid;
+    right: -14%;
+    top: 20%;
+    border-width: 30px 20px 22px 23px;
+}
+@media (max-width: 1200px)
+{
+ .div-bacg-box
+	 {
+	   display: none !important;
+	 }
+ }
+ 
+ 

@@ -1,0 +1,289 @@
+
+
+ 
+ /*---------------start cection   sect-stap (11) -------------------------*/
+.bacg-sect-stap{
+ 
+     background:url(../../img/stat-img/banner-2.jpg) no-repeat center center  fixed;
+    min-height: 400px; 
+	    color: #fefefa;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+	background-attachment: fixed;
+	
+ }
+ 
+.d-cont{
+	 
+	    width: 100%;
+    height: 400px;
+  margin-left: -22%;
+}
+.d-stap{
+min-height:400px;
+	width: 100%;
+  position: relative;
+ background-image: url(../../img/border.png)  ;
+	background-repeat: no-repeat;
+      background-position-x:57%;
+	    background-size: cover;
+}
+.d-item-ic {
+    position: absolute;
+    display: inline-block;
+    padding: 43px 0px;
+}
+.d-item-ic h4 {  
+	margin: 20px -10px;
+    padding: 0;
+    font-size: 23px;
+    font-weight: 700;
+	    color: #fff;
+ font-size: 20px;
+    font-weight: bold;
+
+}
+.d-item-ic span  {
+   width: 38px;
+    height: 20px;
+    padding: 34px 38px;
+    color: #fff;
+     display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 8px 0 0 8px;
+}
+@media (max-width:650px){
+.d-item-ic span  {
+    width: 10px;
+    height: 20px;
+    padding: 24px 28px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 8px 0 0 0px;
+}
+	
+ 
+.d-item-ic h4 {  
+	    margin: 10px -10px;
+        padding: 0;
+        font-size: 10px;
+        font-weight: 700;
+	    color: #fff;
+		font-weight: bold;
+	}
+.cont-stap {
+    width: 69%;
+}
+ }
+ @media (max-width:400px){
+ .d-item-ic {
+    position: inherit;
+    display: inline-block;
+    padding: 0px 0px;
+}
+.d-cont span:nth-child(1) div span:before,
+.d-cont span:nth-child(2) div span:before,
+.d-cont span:nth-child(3) div span:before,
+.d-cont span:nth-child(4) div span:before,
+.d-cont span:nth-child(5) div span:before,
+.d-cont span:nth-child(7) div span:before,
+.d-cont span:nth-child(8) div span:before,
+.d-cont span:nth-child(6) div span:before
+ {
+display: none!important;
+}
+ 
+}
+ 
+.d-item-ic span  i{
+     line-height: 0;
+	font-size:35px;
+}
+
+	.d-cont span:nth-child(1) div span:before 
+      {                       content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 10px 10px 12px;
+    border-color: transparent	 #190e44  transparent transparent;
+    left: -15%;
+    top: 34%;
+     padding: 0 -71px;
+    position: absolute;
+ } 
+ @media(max-width:768px)
+ {
+	.d-cont span  div span:before 
+ {  
+		 content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 12px 10px 10px 12px;
+	   left: -15%;
+		top: 34%;
+		/* margin-right: 8px; */
+		padding: 0 -71px;
+		position: absolute;    border-color: transparent	 #190e44  transparent transparent;
+
+	}
+ 	.d-cont span:nth-child(5) div span:before,
+ 	.d-cont span:nth-child(6) div span:before 
+	
+	
+ 	{ 
+	      border-color: transparent   transparent transparent #47cf73;
+           left: -64%;
+    position: absolute;
+ } 
+	 	.d-cont span:nth-child(5) div span:before 
+	
+	
+ 	{ 
+	   left: 100%;
+		position: absolute;
+
+ } 
+	 	.d-cont span:nth-child(7) div span:before 
+	
+	
+ 	{ 
+	   display: none
+
+ } 
+	.d-stap{
+	
+	background:none;
+	}
+.d-3-bottom {
+    top: 54%;
+}
+
+}
+
+
+
+/*start color i h4 span*/
+.d-cont span:nth-child(1) div span:before {
+  border-color: transparent	 #190e44  transparent  transparent;
+}
+  .d-cont span:nth-child(1) div span { 
+         background: #190e44;}                                 
+   
+
+.d-cont span:nth-child(2) div span:before {
+  border-color: transparent	  #16a085 transparent  transparent;
+}
+  .d-cont span:nth-child(2) div span { 
+         background: #16a085;}                                 
+ 
+
+.d-cont span:nth-child(3) div span:before {
+  border-color: transparent	   #ff9e09  transparent  transparent;
+}
+  .d-cont span:nth-child(3) div span
+{ 
+         background:  #ff9e09 ;
+}  
+  .d-cont span:nth-child(3) div i
+{ 
+       margin-left: 20px ;
+}     
+
+  
+.d-cont span:nth-child(4) div span:before {
+  border-color: transparent	    #c0392b   transparent  transparent;
+}
+  .d-cont span:nth-child(4) div span { 
+         background:   #c0392b ;
+}                                 
+  
+.d-cont span:nth-child(5) div span:before {
+  border-color: transparent	     transparent  transparent #366276 ;
+}
+  .d-cont span:nth-child(5) div span { 
+         background:    #366276 ;
+}     
+ 
+  .d-cont span:nth-child(6) div span { 
+         background:#439fd3; ;
+}   
+  
+.d-cont span:nth-child(7) div span:before {
+  border-color: transparent	     transparent  transparent  #47cf73;
+}
+  .d-cont span:nth-child(7) div span { 
+         background: #47cf73 ;
+}                                 
+  
+   
+/*-------strt pading		  */
+
+.d-cont span:nth-child(1) div
+   
+   {                                 
+    
+	   left: 93%;
+}
+.d-cont span:nth-child(2) div,
+ .d-cont span:nth-child(6) div   
+  {                                 
+  		   left: 65%;
+   }   
+.d-cont span:nth-child(3) div,
+  .d-cont span:nth-child(7) div   
+      {                                 
+ 
+		   left: 38%;
+  } 
+
+.d-cont span:nth-child(4) div ,
+.d-cont span:nth-child(5) div 
+
+      {                                 
+ left: 12.5%;
+} 
+      {                                 
+  
+		   left: 15%;
+  } 
+ 
+  .d-3-bottom{
+    top: 65%;
+}
+  /*-------strt pading		  */
+		  
+  
+.d-cont span div span i{
+ font-size:35px;
+ background: #000; 
+
+
+}
+ 
+.fa-fighter-jet{
+
+transform: rotate(270deg);
+padding-right: 32px
+}
+.fa-fighter-jet:before{
+	color: #fff !important;
+      content: "\f0fb";
+     position: absolute;
+    left: 3px;
+     top: 1px;
+ }
+/*---------------End cection   sect-stap?3 (11) ------------------------*/

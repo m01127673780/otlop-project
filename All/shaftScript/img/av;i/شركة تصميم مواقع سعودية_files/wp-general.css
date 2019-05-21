@@ -1,0 +1,197 @@
+/* ==========================================================================
+   post/page content
+========================================================================== */
+article.full-content{ 
+    background: #fafafa;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+article.hentry{ margin-bottom: 20px; }
+
+    article.hentry .post-thumbnail{
+        margin-bottom: 15px;
+    }
+        article.hentry .post-thumbnail img{
+            max-width: 100%;
+        }
+
+    article.hentry .entry-header{ }
+        article.hentry .entry-header .entry-title{
+            font-size: 19px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+    article.hentry .entry-content{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    article.hentry .entry-footer{ }
+
+
+/* ==========================================================================
+   post/page Elements
+========================================================================== */
+    article.hentry .entry-content h1 ,
+    article.hentry .entry-content h2 ,
+    article.hentry .entry-content h3 ,
+    article.hentry .entry-content h4 ,
+    article.hentry .entry-content h5 ,
+    article.hentry .entry-content h6{
+
+    }
+    article.hentry .entry-content h1{ }
+    article.hentry .entry-content h2{ }
+    article.hentry .entry-content h3{ }
+    article.hentry .entry-content h5{ }
+    article.hentry .entry-content h6{ }
+
+
+    article.hentry .entry-content p{ }
+
+    article.hentry .entry-content blockquote{ font-size: 14.5px; background: #fafafa; }
+    article.hentry .entry-content blockquote:hover{  }
+
+    article.hentry .entry-content img{
+        max-width: 100%;
+    }
+
+    article.hentry .entry-content ul{ }
+    article.hentry .entry-content ol{ }
+
+    article.hentry .entry-content ul li,
+    article.hentry .entry-content ol li{ }
+
+    article.hentry input[type='text'],
+    article.hentry input[type='url'],
+    article.hentry input[type='password'],
+    article.hentry input[type='email'],
+    article.hentry textarea
+    {
+        border: 1px solid #ccc;
+    }
+
+
+
+    /* ==========================================================================
+   other
+========================================================================== */
+.page-header{
+    padding-bottom: 9px;
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.page-header h1.page-title{
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   archive
+========================================================================== */
+article.list-post{
+    background: #fafafa;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+article.list-post .post-thumbnail-wrap{
+    float: right;
+    width: 150px;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+article.list-post .post-thumbnail-wrap .post-thumbnail{
+    border: 1px solid #ddd;
+    padding: 2px;
+    height: 150px;
+}
+article.list-post .post-thumbnail-wrap img{
+    width: 100%;
+    height: 100%;
+}
+
+article.list-post .entry-header .entry-title{
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+/* ==========================================================================
+   nav links
+========================================================================== */
+nav.navigation.pagination{
+    width: 100%;
+}
+nav.navigation.pagination .nav-links{
+    width: 100%;
+    text-align: center;
+}
+nav.navigation.pagination .nav-links:after{
+    content: " ";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+nav.navigation.pagination .nav-links .page-numbers{
+    display: inline-block;
+    padding: 5px 15px;
+    background: #fafafa;
+    border: 1px solid #ccc;
+}
+
+nav.navigation.pagination .nav-links .page-numbers:hover ,
+nav.navigation.pagination .nav-links .page-numbers.current{
+    background: #00111C;
+    color: #fff;
+    border-color: #1A1313;
+}
+
+nav.navigation.pagination .nav-links .page-numbers.next{
+    float: left;
+}
+nav.navigation.pagination .nav-links .page-numbers.prev{
+    float: right;
+}
+
+nav.navigation.pagination .nav-links .page-numbers.dots{}
+
+/* ==========================================================================
+   post-navigation
+========================================================================== */
+nav.navigation.post-navigation{
+    width: 100%;
+    margin: 25px 0;
+}
+nav.navigation.post-navigation .nav-links{
+    width: 100%;
+}
+nav.navigation.post-navigation .nav-links:after{
+    content: " ";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+
+nav.navigation.post-navigation .nav-links > div{
+    width: 50%;
+    background: #00111C;
+    padding: 10px;
+}
+nav.navigation.post-navigation .nav-links  div  a{
+    color: #FFFFFF;
+}
+nav.navigation.post-navigation .nav-links  div  a  .meta-nav{
+    display: none;
+}
+nav.navigation.post-navigation .nav-links .nav-previous{
+    float: right;
+    text-align: right;
+    border-left: 1px solid #ccc;
+}
+nav.navigation.post-navigation .nav-links .nav-next{
+    float: left;
+    text-align: left;
+}

@@ -1,0 +1,283 @@
+  /***************************************************************************************************************
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Moti               ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 3. header styles 
+* 6. footer styles 
+  * 14.contact-us styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+/************************** 
+* 1. imported styles 
+***************************/
+
+
+@import url(componnt/statistics.css);
+@import url(componnt/header.css);
+@import url(componnt/shafleScripit.css);
+@import url(componnt/shooc-us.css);
+@import url(componnt/style-slider-bootstrip.css);
+@import url(componnt/owlcoursl-22.css);
+@import url(componnt/statistics.css);
+@import url(componnt/choole-medeskwy.css);
+@import url(componnt/exprets.css);
+@import url(componnt/sect-stap.css);
+@import url(componnt/4icon-servise.css);
+@import url(componnt/contact-us-form.css);
+@import url(componnt/footr.css);
+@import url(componnt/footer-All.css);
+@import url(componnt/whatapp.css);
+@import url(vendrs/bootstrap.min.css);
+@import url(vendrs/font-awesome.min.css);
+@import url(vendrs/animate.min.css);
+@import url(vendrs/magnific-popup.css);
+@import url(vendrs/owl.carousel.css);
+@import url(vendrs/owl.theme.default.min.css);
+ @import url(vendrs/plugins/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css);
+   
+ /************************** 
+* 2. miscelnious styles 
+***************************/
+body {
+  
+} 
+
+
+a:hover{
+
+text-decoration: none;
+}
+
+   
+/*custm style*/
+
+.custm-head p{
+ color: #fff;
+	
+}
+
+.owl-carousel .owl-item img{
+
+height: 300px;
+}
+.app-screenshot{
+    background: blue;
+    z-index: 999;
+    margin-top: -102px;
+    margin-bottom: -50px;
+    overflow: hidden;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/*start section servis*/
+
+
+body{
+/*min-height: 4000px;*/
+   color: #000; 
+/*  height: 4000px;*/
+     background-color: #f7f7f7;
+  font-family: tahome;  
+	position:relative;
+ 
+}
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+
+.margin{	
+	margin: 100px 0 ;
+	overflow: hidden;
+}
+
+.padding{	
+	padding: 100px 0 ;
+}
+
+
+/**End glopl*/ 
+/** start section  glopl*/
+
+
+
+
+/**End section  glopl*/ 
+
+
+
+
+  *---------------------golply---------------------------------*/
+ 
+ul a li:hover{
+	text-decoration: none;
+}
+	mohamed 
+}
+  ul li a:hover{
+	text-decoration: none;
+	color: #999;
+ }
+ul{
+list-style: none;
+	margin: 0;
+	padding: 0;
+}
+  
+  
+/*--------------------------*/
+/*custm style*/
+
+.custm-head p{
+ color: #fff;
+	
+}
+		.mohamed{
+	
+	width: 100%;
+		height: 1000px;
+		background: #000;
+	
+	}
+	.nav-img-fotr-1 ul li {
+     flex-grow: none; 
+     justify-content:none; 
+     
+    margin: 0 29px;
+}
+ 
+.video-features .video-box > img {
+    height: 467px;
+} 
+/*//------------------------------------*/
+
+ .section-all-fotar .main-title-h1 h1 {
+    font-size: 21px;
+    padding: 22px;
+    margin-left: -24px;
+    border-bottom: 3px solid #f7747a;
+    display: inline-block;
+    color: #f7747a;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+
+/*----------------*/
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50px;
+    color: #000;
+    text-align: center;
+    background: #4f0b0b;
+    opacity: 1;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+    opacity: .5;
+}
+
+
+/*------------------------*/
+
+
+
+
+
+.bacg-sect-stap{
+ 	 
+     background:url( ../img/stat-img/banner-2.jpg) no-repeat center;         min-height: 750px;
+}
+@media(max-width:1050px){
+
+d-cont span:nth-child(1) div {
+    left: 84%;
+}
+	
+}
+ 
+
+ serves, .container-serves {
+      padding:   0; 
+   
+}
+.section-header {
+     margin:  0; 
+}
+.asi-All{
+    line-height: 6;
+    width: 100px;
+    height: 100px;
+    background: #7cb62f;
+    border-radius: 50%;
+	color: #fff;
+	transition: All 1s ease;
+
+		
+}
+.single-app-review:hover{
+	transition: All 1s ease;
+
+	border: 5px solid #7cb62f;
+
+}
+.single-app-review:hover .asi-All{
+     border-radius: 0;
+
+}
+
+.sect-stap .section-header p {
+    margin: 15px auto;
+    color: #a9a9a9!important;
+     max-width: 700px!important;
+    margin-bottom: 50px;
+    font-size: 19px;
+    font-weight: bold!important;
+}
+.app-review .color-fff{
+	color: #fff!important;
+	}

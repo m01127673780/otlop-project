@@ -1,0 +1,83 @@
+
+		body{ 
+
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #333;
+		background-color: #5c182e;
+		}
+
+		.data{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+		padding-top: 40px;
+		padding-bottom: 70px;
+		min-height: 400px;
+		color: #fff;
+		}
+		.h-title{
+		margin-bottom: 80px;
+		margin-top: 4px;
+		}
+		/*************************End price taple********/
+
+		/*start section our taem*/
+
+		.our-team-tow{
+		/*  width: 100%;*/
+		min-height: 500px;
+		}
+		.our-team-tow .person{
+
+		margin-bottom: 40px;
+		}
+
+		/*****************************************************/
+		/************************************************************************/
+		.back-over.our-team-tow  {
+		color: red;
+
+		background:url(../img/banner-2.jpg) no-repeat center center  fixed;
+		min-height: 400px; 
+		color: #fff;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		/*	    margin-top: 100px;*/
+		}  
+		.person h4{
+		font-size: 1.5rem;
+		color: #b6b6b5;
+		margin: 16px 0;
+		font-weight: bold;
+		font-family: sans-serif;
+
+		}
+		.our-team-tow .person{
+		margin-top: 0;
+		margin-bottom: 1rem;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		font-family: sans-serif;
+
+		}
+		.person img{
+		width: 130px;
+		height: 130px;
+		border-radius: 50%;
+		-webkit-transition-duration:0.7s
+		-moz-transition-duration:0.7s;
+		-o-transition-duration:0.7s;
+		-mos-transition-duration:0.7s; 
+		transition-duration:0.7s;
+		}
+		.person:hover.person img{
+		transform:scale(1.2,1.2)  ;
+		}
+
+
+

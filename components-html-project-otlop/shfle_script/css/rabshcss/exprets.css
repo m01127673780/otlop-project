@@ -1,0 +1,171 @@
+
+
+
+
+/*start  section exprets  progress barcarcil*/
+.exprets {
+    color: red;
+     background:url(../img/stat-img/banner-2.jpg) no-repeat center center  fixed;
+    min-height: 400px; 
+	    color: #fff;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+	background-attachment: fixed;
+	
+ }
+ 
+.exprets .h2-section-title{
+color: #fff;
+}
+
+.exprets .span-border{
+color: #fff;
+	background: red;
+}
+ .exprets .progress-content{
+margin-top: 20px;
+}
+.exprets .progress{
+	width: 150px;
+	height: 150px;
+	background: none;
+	box-shadow: none;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.exprets .progress > span{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+ 	z-index: 2;
+	overflow: hidden;
+	
+
+}
+.exprets .progress > span{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+ 	z-index: 2;
+	
+
+}
+
+.exprets .progress .progress-value{
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	top: 5%;
+	left: 5%;
+/* 	background: #44489b;*/
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	line-height:135px;
+ }
+
+.exprets .progress .progress-left{
+
+left: 0;
+}
+.exprets .progress .progress-right{
+
+right: 0;
+}
+.exprets .progress .progress-bar{
+position: absolute;
+	width: 100%;
+	height: 100%;
+	background: none;
+	border-width: 10px;
+	border-style: solid;
+	
+}
+.exprets .progress.blue .progress-bar{
+border-color: #049dff;
+	
+}
+.exprets .progress.yellow .progress-bar{
+border-color: #fdba04;
+	
+}
+
+.exprets .progress .progress-left .progress-bar{
+left: 100%;
+border-top-right-radius: 80px;
+border-bottom-right-radius: 80px;
+border-left: 0;
+transform-origin: left;
+	
+}
+.exprets .progress .progress-right .progress-bar{
+right: 100.5%;
+border-top-left-radius: 80px;
+border-bottom-left-radius: 80px;
+border-right: 0;
+transform-origin:right;
+animation: load1 1.8s linear forwards;
+}
+
+.exprets .progress.blue .progress-left .progress-bar{
+	animation: load2 1.5s linear forwards 1.8s;
+}
+.exprets .progress.yellow .progress-left .progress-bar{
+	animation: load3 1s linear forwards 1.8s;
+}
+
+.exprets .title{
+color: #fff;
+    font-size: 23px;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+	
+}
+
+
+
+@keyframes load1{
+
+	
+	0%{
+	transform: rotate(0);
+	}
+	100%{
+	transform: rotate(180deg);
+	}
+}
+
+@keyframes load2{
+
+	
+	0%{
+	transform: rotate(0);
+	}
+	100%{
+	transform: rotate(144deg);
+	}
+}
+@keyframes load3{
+
+	
+	0%{
+	transform: rotate(0);
+	}
+	100%{
+	transform: rotate(90deg);
+	}
+}
+/*End section exprets carcil*/
