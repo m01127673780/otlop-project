@@ -1,0 +1,201 @@
+;(function ( $, window, document, undefined ) {
+	'use strict';
+
+	$.fn.PLUGIN_NAME = function() 
+	{
+	    return this.each( function(){
+
+	        var self      			= $(this);
+
+			
+
+	    });
+	};
+})( jQuery, window, document );
+
+
+jQuery(document).ready(function($) {
+	"use strict";
+	var config = {
+		vFactor:  0.10,
+		mobile:   false
+	}
+	window.sr = new scrollReveal(config);
+
+    $('.dropdown-toggle').dropdownHover({
+        delay:0,
+    });
+
+    $('.projects-container ul.projects-list').mixItUp();
+
+    $('.project-filter li a').on('click', function(event) {
+        event.preventDefault();
+        $('.project-filter li').removeClass('active');
+        $(this).closest('li').addClass('active');
+    });
+
+	$(".owl-carousel").owlCarousel({
+		navigation : true, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		items : 1,
+		animateOut: 'fadeOut',
+		animateIn: 'flipInX',
+		responsive: true
+	});
+
+	var $featuredslider = $(".featured-slider");
+
+	$featuredslider.owlCarousel({
+		navigation : true, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		items : 1,
+		pagination : true,
+		theme : "owl-theme",
+		responsive: true
+		// animateOut: 'zoomOut',
+		// animateIn: 'zoomIn',
+	});
+
+
+	$("a.maxim").fancybox({margin:50});
+	$("a.fancybox").fancybox({margin:50});
+
+
+	function goToByScroll(id){
+	      // Scroll
+	    $('html,body').animate({
+	        scrollTop: $(id).offset().top-50},
+	        'slow');
+	}
+
+
+	$('.vertical-tabs .nav-tabs a').on('click', function(event) {
+		event.preventDefault();
+		$('.section-package').hide();
+		$('.section-package').removeClass('active');
+
+		var iddd = $(this).data('package');
+
+		$(iddd).addClass('active');
+
+
+		$(iddd).slideDown('slow', function() {
+			goToByScroll($(iddd)); 
+		});
+
+	});
+
+
+
+
+
+
+
+
+	$('.chat-service-item').on('click', function(event) {
+		event.preventDefault();
+
+		var $id;
+
+		$id = $(this).data('id');
+
+		$('.chat-service-item').removeClass('active');
+
+		$(this).addClass('active');
+
+		$('.offer-tab-item.active').slideUp().removeClass('active');
+
+		$('.tab-item-'+$id).slideDown('slow/400/fast', function() {
+			$(this).addClass('active');
+		});
+
+	});
+
+
+
+
+	$('.handler').on('click', function(event) 
+	{
+
+		event.preventDefault();
+
+		// var $pos = ( $(this).hasClass('opened') ) ? -300 : 0;
+		
+
+		$('.sticky-form').toggleClass('opened');
+
+		if ( $('.sticky-form').hasClass('opened') ) {
+			$('.sticky-form').animate({
+				left: 0
+			});
+		}else{
+			$('.sticky-form').animate({
+				left: -350
+			});
+		}
+
+		// $('.sticky-form').animate({
+		// 	left: $pos+"px"
+		// });
+
+	});
+
+
+
+
+
+
+	//javasctipt 
+	//load more click function: improved to prevent double click and fire funciton only after content has been loaded (good for slow internet connection)
+	$('.load_more:not(.loading)').live('click',function(e){
+
+		e.preventDefault();
+
+		
+
+		var offset 			= $('.projects-list .mix').length;
+
+		var $load_more_btn 	= $(this);
+
+		var post_type 		= 'project'; // this is optional and can be set from anywhere, stored in mockup etc...
+
+		var nonce 			= $load_more_btn.attr('data-nonce');
+
+		console.log('clicked');
+
+		$.ajax({
+	    	type : "post",
+	    	context: this,
+	     	dataType : "json",
+	     	url : headJS.ajaxurl,
+			data : {action: "load_more", offset:offset, nonce:nonce, post_type:post_type, posts_per_page:4},
+	     	beforeSend: function(data) {
+				// here u can do some loading animation...
+				$('a.load_more i.fa').show();
+	     	},
+	     	success: function(response) {
+				if (response['have_posts'] == 1){//if have posts:
+					$load_more_btn.removeClass('loading').html('المزيد');
+					
+					var $newElems = $(response['html'].replace(/(\r\n|\n|\r)/gm, ''));// here removing extra breaklines and spaces
+					// $('.mix-container').append($newElems);
+					$('.projects-container ul.projects-list').mixItUp('append', $newElems);
+				} else {
+					//end of posts (no posts found)
+					console.log('no posts');
+					$load_more_btn.removeClass('loading').addClass('end_of_posts').html('<span>لا يوجد المزيد</span>'); // change buttom styles if no more posts
+				}
+	     	}
+	  	});
+	});
+
+
+
+
+
+
+
+
+});

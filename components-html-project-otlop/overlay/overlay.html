@@ -1,0 +1,143 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from thesoftking.com/html/moti/moti/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Aug 2018 09:25:00 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <title>levn-1</title>
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57"
+     href="img/favicon/logo.png"> 
+     <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../ms-icon-144x144.html">
+    <meta name="theme-color" content="#ffffff">
+ 
+        
+             <link rel="stylesheet" href="css/componnt/shafleScripit.css">
+             <link rel="stylesheet" href="css/vendrs/bootstrap.min.css">
+             <link rel="stylesheet" href="css/vendrs/font-awesome.min.css">
+ <style>
+	 
+	 .div-parnt-overlay{
+		 position: relative
+	 }
+	 .overlay{
+   position: absolute;
+  
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: rgba(15, 123, 255, 0.5);
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    opacity: 1;
+		 }
+	</style>
+ </head> 
+ 
+<body class=" ">
+ 
+ 
+
+<!--====================================================-->
+<section class="margin portfolio">
+ <!--start section title-->
+<div class="container">
+  <div class="portfoli">
+ 	 
+ <div class="  div-parnt-overlay  col-lg-3 col-md-6 col-sm-12">
+		 test
+ 		 
+    		 <!--./over--><img src="img/shaful/11.jpg" alt="">
+     		 <div class=" overley">
+		   <a class="video" href="../booxs/Lectures_on_the_English_Language_Compreh.pdf">  
+		  <i class="  fa fa-play-circle  fa-2x "></i>
+		</a>
+   	</div>
+</div><!--/.col--> 
+ 
+ 	 </div><!--/.images-->
+   	<button class="more">مستوى رفيع</button>
+  		</div><!--./container-->
+ </section><!--./portflio-->
+  
+  <!--======================================================-->
+ 
+ 
+	<!-- jquery -->
+<script src="js/vendrs/jquery.js"></script>
+<!-- bootstrap -->
+<script src="js/vendrs/bootstrap.min.js"></script>
+ 
+<!-- custom -->
+<!-- <script src="js/custom-About-us.js"></script>-->
+ <script>
+	
+	 "use strict"; // Start of use strict
+
+ 
+//-----------------End statestk--------------------------//	
+  /*start shufil portofile */
+$(".buttons button").click(function() {
+ 	$(this).addClass("active-btn").siblings().removeClass("active-btn");
+ 	var cssFilter = $(this).attr('id');
+     if( cssFilter === "all" ) {
+	$(".images > div").fadeIn();
+	$(".red-more").not($(".red-more").fadeIn(".red-more").fadeOut());
+ 	} else {
+ 	 $(".images > div ") .fadeOut(500);
+		
+	 $(".images").contents().filter("." + cssFilter).fadeIn(500);
+ 	}
+ });
+	$(".red-more").fadeOut();
+ 	$(".more").click(function() {
+	$(".red-more").fadeToggle(100);
+});
+/*End shufil portofile */
+ /*start chooseo Us content */
+ $(".c-panel li").click(function() {
+  var p = $(this).data('role');
+	 $(".content > div").hide();
+	 $(".content").contents().filter('#' + p).fadeIn();
+  	$(this).addClass("active-btn").siblings().removeClass("active-btn");
+  });
+/*End chooseo Us content */
+ function priceFilter() {
+    if ($('.range-slider-price').length) {
+         var priceRange = document.getElementById('range-slider-price');
+         noUiSlider.create(priceRange, {
+            start: [30, 150],
+            limit: 200,
+            behaviour: 'drag',
+            connect: true,
+            range: {
+                'min': 10,
+                'max': 200
+            }
+        });
+         var limitFieldMin = document.getElementById('min-value-rangeslider');
+        var limitFieldMax = document.getElementById('max-value-rangeslider');
+         priceRange.noUiSlider.on('update', function(values, handle) {
+            (handle ? $(limitFieldMax) : $(limitFieldMin)).text(values[handle]);
+        });
+    };
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

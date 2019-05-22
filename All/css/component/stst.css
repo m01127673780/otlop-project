@@ -1,0 +1,117 @@
+ 
+.data{
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+	padding-top: 40px;
+	padding-bottom: 70px;
+    min-height: 400px;
+	color: #fff;
+ }
+ 
+ /*************************End price taple********/
+/*start section our taem*/
+.our-team-tow{
+/*  width: 100%;*/
+    min-height: 500px;
+}
+.our-team-tow .person{
+    margin-bottom: 40px;
+}
+ .h-title{
+	margin-bottom: 80px;
+    margin-top: 4px;
+}
+/*****************************************************/
+/************************************************************************/
+.back-over.statistics  .container {
+	padding: 100px 0;
+}
+.back-over.statistics  {
+    color: red;
+    margin-top: 100px;
+    background:url(../../img/stat-img/banner-2.jpg) no-repeat center center  fixed;
+    min-height: 400px; 
+	    color: #fff;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}  
+/************************************************************************/
+.statistics {
+    color: red;
+}  
+.statistics h1{
+	margin-bottom: 60px;
+} 
+.stats i{
+	color: #fff;
+}
+.statistics .stats{
+	margin-bottom: 40px;
+}
+.statistics .col-lg-3 .stats:hover {
+	color: #fff;
+}
+.person img{
+	
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.stats .p-p-statst,
+.stats span
+{
+	font-size: 20px;	
+	font-size:30px;
+	font-weight: 800px;
+	margin-bottom: 0;
+	color: #b6b6b5 ;
+    letter-spacing: 2px;}
+.statistics .stats i{
+		color:#7a1b1d;
+	    transition: all 2.5s ease;
+ -webkit-transition-duration:0.7s
+        -moz-transition-duration:0.7s;
+        -o-transition-duration:0.7s;
+        -mos-transition-duration:0.7s; 
+            transition-duration:0.7s;
+ }
+.statistics .stats i:hover  {
+  transform:scale(1.2,1.2) rotate(360deg);
+	color: #fff;
+ }
+ .statistics :hover .statistics .stats {
+		color:#fff;
+	    transition: all 2.5s ease;
+ -webkit-transition-duration:0.7s
+        -moz-transition-duration:0.7s;
+        -o-transition-duration:0.7s;
+        -mos-transition-duration:0.7s; 
+        transition-duration:0.7s;
+}
+ 
+.statistics .spng {
+			color:#00f;
+}
+.statistics .spng:hover{
+	color: #00f;
+ }
+
+ .stats .nuumber
+{
+
+display: block;
+font-size: 25px;
+font-weight: bold;
+
+  }
+ .stats .statst-p{
+color: #ed1d24;
+font-size: 0px;
+
+ }
+/* End stats */
+
+/*****************************************************************/
